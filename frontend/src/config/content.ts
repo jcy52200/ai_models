@@ -115,6 +115,17 @@ export const content = {
         },
     },
 
+    // ImageMarquee 图片展示
+    imageMarquee: {
+        title: '精选展示',
+        subtitle: '探索素居的精美空间设计，感受每一个细节的用心',
+        hint: '拖动浏览更多',
+        images: [
+            { src: '/show_pictures/banner-bg.jpg', alt: '素居展示图片 - 横幅背景' },
+            { src: '/show_pictures/hero-bg.jpg', alt: '素居展示图片 - 主视觉背景' },
+        ],
+    },
+
     // 管理后台
     admin: {
         title: '素居后台',

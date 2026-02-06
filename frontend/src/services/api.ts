@@ -1,8 +1,12 @@
 import axios from 'axios';
 import type { AxiosInstance, AxiosResponse, AxiosError, InternalAxiosRequestConfig } from 'axios';
 
-// API 基础配置
-const BASE_URL = 'http://localhost:8000/v1';
+/**
+ * API 基础配置
+ * 从环境变量读取，支持 Vite 的环境变量注入
+ * 本地开发默认使用 localhost:8000
+ */
+const BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000/v1';
 
 // 创建 Axios 实例
 const api: AxiosInstance = axios.create({

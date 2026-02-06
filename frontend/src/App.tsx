@@ -7,6 +7,7 @@ import About from './sections/About';
 import CategoryShowcase from './sections/CategoryShowcase';
 import ProductList from './sections/ProductList';
 import Testimonials from './sections/Testimonials';
+import ImageMarquee from './sections/ImageMarquee';
 import ProductDetail from './pages/ProductDetail';
 import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
@@ -39,6 +40,7 @@ function Home() {
       <CategoryShowcase />
       <ProductList />
       <Testimonials />
+      <ImageMarquee />
     </>
   );
 }
