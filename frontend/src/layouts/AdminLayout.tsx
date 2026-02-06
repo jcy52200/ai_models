@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import { siteConfig } from '../config/theme';
 import { content } from '../config/content';
 import {
     LayoutDashboard,
