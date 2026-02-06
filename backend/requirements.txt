@@ -1,10 +1,14 @@
-fastapi>=0.109.0,<0.110.0
-uvicorn[standard]==0.27.0
-sqlalchemy==2.0.25
-pydantic>=2.5.3,<2.6.0
-pydantic-core>=2.14.5,<2.15.0
-pydantic-settings==2.1.0
-python-jose[cryptography]==3.3.0
-passlib[bcrypt]==1.7.4
-python-multipart==0.0.6
-aiosqlite==0.19.0
+# 使用宽松的版本约束，允许pip选择预编译包
+fastapi~=0.109.0
+pydantic~=2.5.0
+pydantic-core~=2.14.0
+sqlalchemy~=2.0.0
+aiosqlite~=0.19.0
+# 关键：移除[standard]，它包含的需要编译的依赖（如watchgod）是导致错误的常见原因
+uvicorn~=0.27.0
+pydantic-settings~=2.1.0
+# cryptography是包含Rust/C扩展的重灾区，必须放宽约束
+python-jose[cryptography]~=3.3.0
+# bcrypt是C扩展，必须放宽约束
+passlib[bcrypt]~=1.7.0
+python-multipart~=0.0.6
