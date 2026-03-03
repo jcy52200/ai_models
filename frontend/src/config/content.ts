@@ -121,8 +121,14 @@ export const content = {
         subtitle: '探索素居的精美空间设计，感受每一个细节的用心',
         hint: '拖动浏览更多',
         images: [
-            { src: '/show_pictures/banner-bg.jpg', alt: '素居展示图片 - 横幅背景' },
-            { src: '/show_pictures/hero-bg.jpg', alt: '素居展示图片 - 主视觉背景' },
+            { src: '/show_pictures/Algorithm1.jpg', alt: '素居展示图片 - 横幅背景' },
+            { src: '/show_pictures/Algorithm3.jpg', alt: '素居展示图片 - 主视觉背景' },
+            { src: '/show_pictures/forum1.jpg', alt: '素居展示图片 - 主视觉背景' },
+            { src: '/show_pictures/forum2.jpg', alt: '素居展示图片 - 主视觉背景' },
+            { src: '/show_pictures/forum3.jpg', alt: '素居展示图片 - 横幅背景' },
+            { src: '/show_pictures/forum4.jpg', alt: '素居展示图片 - 主视觉背景' },
+            { src: '/show_pictures/suju1.jpg', alt: '素居展示图片 - 主视觉背景' },
+            { src: '/show_pictures/suju3.jpg', alt: '素居展示图片 - 主视觉背景' }
         ],
     },
 
