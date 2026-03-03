@@ -43,7 +43,7 @@ export const content = {
     // Footer 页脚
     footer: {
         tagline: '通过深思熟虑的设计改变您的生活空间。',
-        copyright: '© 2024 素居。保留所有权利。',
+        copyright: '© 2026 素居。保留所有权利。',
 
         sections: {
             pages: {
