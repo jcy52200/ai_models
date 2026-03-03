@@ -66,9 +66,9 @@ export const content = {
                 ],
             },
             social: {
-                title: '关注我们',
+                title: '关注我们并咨询',
                 links: [
-                    { name: '微信', href: '#' },
+                    { name: '微信：lloopsll', href: '#' },
                     { name: '微博', href: '#' },
                     { name: '小红书', href: '#' },
                     { name: '抖音', href: '#' },
@@ -117,8 +117,8 @@ export const content = {
 
     // ImageMarquee 图片展示
     imageMarquee: {
-        title: '精选展示',
-        subtitle: '探索素居的精美空间设计，感受每一个细节的用心',
+        title: '其他项目精选展示',
+        subtitle: '用心做产品，用心做服务',
         hint: '拖动浏览更多',
         images: [
             { src: '/show_pictures/Algorithm1.jpg', alt: '素居展示图片 - 横幅背景' },
